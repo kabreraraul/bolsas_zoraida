@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Bolsas Zoraida</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #fff;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+            margin-bottom: 30px; /* Añade más espacio debajo de la barra de navegación */
+        }
+        .navbar .navbar-brand {
+            color: #fff;
+            font-size: 2em; /* Aumenta el tamaño de la letra */
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.2s;
+        }
+        .product img:hover {
+            transform: scale(1.05);
+        }
+        .product h2 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        .product .price {
+            font-size: 1.2rem;
+            color: #555;
+            margin: 10px 0; /* Añade un margen para separación */
+        }
+        .product button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.2s;
+        }
+        .product button:hover {
+            background-color: #0056b3;
+        }
+        .quality-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            text-align: center;
+        }
+        .quality-section h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .quality-section p {
+            font-size: 1rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">BOLSAS ZORAIDA PIEDRA</a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- Productos -->
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/26/93/67/66/26936766_57435591_1000.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h2 class="card-title">Gucci <br>
+Bolsa de hombro Horsebit 1955</h2>
+                        <p class="price">$68,300</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/21/61/36/19/21613619_53056692_1000.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h2 class="card-title">PINKO <br>
+Bolsa crossbody Love One micro</h2>
+                        <p class="price">$5,193</p> 
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/27/59/09/81/27590981_57406597_1000.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h2 class="card-title">Cult Gaia <br>
+Bolsa de mano color rosa Galleria</h2>
+                        <p class="price">$9,522</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/25/71/35/37/25713537_55779734_1000.jpg" class="card-img-top" alt="Producto 4">
+                    <div class="card-body">
+                        <h2 class="card-title">Valentino Garavani <br>
+Tote Viva Superstar mediana</h2>
+                        <p class="price">$6,900</p> 
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/27/68/33/29/27683329_57421049_1000.jpg" class="card-img-top" alt="Producto 5">
+                    <div class="card-body">
+                        <h2 class="card-title">Alaïa <br>
+Tote Shape mediana</h2>
+                        <p class="price">$12,600</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card product">
+                    <img src="https://cdn-images.farfetch-contents.com/18/84/42/69/18844269_41098108_1000.jpg" class="card-img-top" alt="Producto 6">
+                    <div class="card-body">
+                        <h2 class="card-title">Kurt Geiger London <br>
+Bolsa Micro Kensington</h2>
+                        <p class="price">$1,830</p> 
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calidad y Materiales -->
+        <div class="quality-section">
+            <h2>Calidad y Materiales</h2>
+            <p>Nuestros productos están hechos con los mejores materiales para garantizar la durabilidad y el estilo. Utilizamos cuero auténtico, telas resistentes y cierres de alta calidad. Cada bolsa pasa por un riguroso proceso de control de calidad para asegurar que reciba solo lo mejor.</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
